@@ -1,0 +1,19 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+<p>
+  Explanation of motivations
+</p>
+
+<h2>Our writers</h2>
+<div class="writers">
+  {% for member in site.data.team %}
+  <p class="writer">
+    <strong>{{ member.name }}</strong> - <a href="https://twitter.com/{{member.twitter}}">@{{member.twitter}}</a><br />
+
+    Lorem ipsum
+  </p>
+  {% endfor %}
+</div>
