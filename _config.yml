@@ -12,3 +12,4 @@ github_username:  #SexualHealthInnovations
 
 # Build settings
 markdown: kramdown
+gems: ['emoji_for_jekyll']
